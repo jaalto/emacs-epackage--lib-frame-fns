@@ -1,12 +1,12 @@
-Package: frame-fns
+Package: lib-frame-fns
 Section: extensions
 License: GPL-2+
-Depends: emacs (>= 20)
-Status: stable
+Depends: emacs (>= 22)
+Status: stable unsafe
 Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
 Bugs:
-Upstream: Drew Adams
+Upstream: Drew Adams <drew.adams@oracle.com>
 Upstream-Bugs:
 Vcs-Type: http
 Vcs-Url: http://www.emacswiki.org/emacs/download/frame-fns.el
@@ -15,7 +15,10 @@ Vcs-Browser:
 Vcs-User:
 Vcs-Password:
 Homepage:
-Wiki: http://www.emacswiki.org/emacs/SetFonts
+Wiki: http://www.emacswiki.org/cgi-bin/wiki/DrewsElispLibraries
 Commentary:
 Description: library of frame and window functions
- [<Longer description>]
+ Library of frame-*, get-frame-*, read-frame-* and window-* commands.
+ .
+ Note: package is not namespace safe. Function may clash with
+ standard Emacs.

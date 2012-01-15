@@ -11,4 +11,4 @@
 (autoload '1-window-frames-on                   "frame-fns" "" nil)
 (autoload 'multi-window-frames-on               "frame-fns" "" nil)
 (autoload 'flash-ding                           "frame-fns" "" nil)
-(provide 'lib-frame-fns-epkg-autoloads)
+(provide 'lib-frame-fns-epackage-autoloads)
